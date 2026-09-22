@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab — VOID INDUSTRIES</title>
+  <meta name="description" content="VOID INDUSTRIES Lab — experiments in design, code, and interaction.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__bar">
+      <a href="index.html" class="logo"><span class="logo__mark"></span>VOID INDUSTRIES</a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="nav">
+        <a class="nav__link" href="work.html">Work</a>
+        <a class="nav__link" href="lab.html">Lab</a>
+        <a class="nav__link" href="journal.html">Journal</a>
+        <a class="nav__link" href="about.html">About</a>
+        <a class="nav__link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <span class="mono page-hero__label">LAB / 007</span>
+      <h1 class="display-xl">WHERE<br>IDEAS<br>GO TO<br><span class="outline-text-accent">MUTATE.</span></h1>
+      <p class="page-hero__sub">Unbriefed, unclient, unapologetic. The lab is our permanent R&amp;D track — things that don't fit a project, built anyway.</p>
+    </section>
+
+    <!-- Horizontal scroll strip -->
+    <section style="overflow:hidden;border-bottom:2px solid var(--border);padding-block:clamp(3rem,6vw,5rem);">
+      <div class="container mb-2">
+        <span class="mono accent">EXPERIMENT STREAM → SCROLL</span>
+      </div>
+      <div style="display:flex;gap:2px;padding-inline:var(--gutter);width:max-content;" data-gsap="horizontal">
+        <div class="card" style="width:min(70vw,380px);min-height:300px;">
+          <span class="card__num">EXP-014</span>
+          <h3 class="card__title">TYPE IN MOTION</h3>
+          <p class="card__body">Variable fonts driven by scroll velocity. Letters stretch when you hurry, calm down when you stop.</p>
+          <span class="card__meta">WebGL / OpenType — 2026</span>
+        </div>
+        <div class="card" style="width:min(70vw,380px);min-height:300px;">
+          <span class="card__num">EXP-013</span>
+          <h3 class="card__title">GRID BREAKER</h3>
+          <p class="card__body">A layout engine that starts with a perfect grid and progressively destroys it based on content length.</p>
+          <span class="card__meta">JS / Generative — 2026</span>
+        </div>
+        <div class="card" style="width:min(70vw,380px);min-height:300px;">
+          <span class="card__num">EXP-012</span>
+          <h3 class="card__title">SOUND OF BORDERS</h3>
+          <p class="card__body">UI borders that emit tones when crossed by the cursor. Brutalism you can hear.</p>
+          <span class="card__meta">Web Audio — 2025</span>
+        </div>
+        <div class="card" style="width:min(70vw,380px);min-height:300px;">
+          <span class="card__num">EXP-011</span>
+          <h3 class="card__title">NULL POSTER</h3>
+          <p class="card__body">A poster generator that only uses empty space — the type is whatever's missing.</p>
+          <span class="card__meta">Canvas — 2025</span>
+        </div>
+        <div class="card" style="width:min(70vw,380px);min-height:300px;">
+          <span class="card__num">EXP-010</span>
+          <h3 class="card__title">CURSOR DEBRIS</h3>
+          <p class="card__body">Every mouse movement leaves decaying fragments that pile up and form accidental compositions.</p>
+          <span class="card__meta">Canvas — 2025</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="mono section-head__label">FEATURED / LIVE</span>
+        </div>
+        <div class="swiper lab-swiper" data-aos="fade-up">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card" style="min-height:380px;">
+                <div style="height:180px;background:repeating-linear-gradient(45deg,var(--accent),var(--accent) 8px,var(--bg) 8px,var(--bg) 16px);border:2px solid var(--border);margin-bottom:1.5rem;"></div>
+                <span class="card__num">LIVE</span>
+                <h3 class="card__title">SIGNAL DECAY OS</h3>
+                <p class="card__body">A fake operating system UI that degrades the longer you use it.</p>
+                <span class="card__meta">Prototype — Browser only</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="min-height:380px;">
+                <div style="height:180px;background:repeating-linear-gradient(0deg,#1a1a1a,#1a1a1a 10px,var(--accent) 10px,var(--accent) 11px);border:2px solid var(--border);margin-bottom:1.5rem;"></div>
+                <span class="card__num">LIVE</span>
+                <h3 class="card__title">MONOLITH FONTS</h3>
+                <p class="card__body">An open typeface with only right angles. No curves were harmed.</p>
+                <span class="card__meta">Typeface — Free download</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="min-height:380px;">
+                <div style="height:180px;background:radial-gradient(circle,var(--accent) 2px,transparent 2px);background-size:20px 20px;border:2px solid var(--border);margin-bottom:1.5rem;"></div>
+                <span class="card__num">LIVE</span>
+                <h3 class="card__title">DOT MATRIX POET</h3>
+                <p class="card__body">Generative haiku rendered as dot-matrix printouts, refreshed hourly.</p>
+                <span class="card__meta">Generative — API</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="min-height:380px;">
+                <div style="height:180px;background:conic-gradient(from 90deg,var(--bg),var(--accent),var(--bg));border:2px solid var(--border);margin-bottom:1.5rem;"></div>
+                <span class="card__num">ARCHIVED</span>
+                <h3 class="card__title">ROTATING GRID</h3>
+                <p class="card__body">A CSS grid that rotates with the Earth's timezone offset.</p>
+                <span class="card__meta">CSS Houdini — 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <h2 class="display-l">STEAL AN<br>EXPERIMENT</h2>
+      <p class="mono mt-2">ALL LAB OUTPUT IS OPEN SOURCE</p>
+      <a href="#" class="btn">View on GitHub</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="logo mb-1" style="display:inline-flex;"><span class="logo__mark"></span>VOID INDUSTRIES</a>
+        <p>An experimental brand studio building loud systems for companies that refuse the template.</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col__title">Explore</h4>
+        <ul>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="lab.html">Lab</a></li>
+          <li><a href="journal.html">Journal</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col__title">Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="manifesto.html">Manifesto</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col__title">Connect</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Are.na</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 VOID INDUSTRIES</span>
+      <span>BUILT IN THE VOID — NO TEMPLATES</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/swiper-init.js"></script>
+  <script src="js/aos-init.js"></script>
+</body>
+</html>
