@@ -24,7 +24,9 @@ A bold, experimental multi-page website built with **pure HTML, CSS, and vanilla
 
 ## Demo
 
-Open `index.html` directly in a browser, or serve the folder locally:
+**Live site:** https://girishlade111.github.io/void-industries/
+
+Or run it locally — open `index.html` directly, or serve the folder:
 
 ```bash
 # Python
